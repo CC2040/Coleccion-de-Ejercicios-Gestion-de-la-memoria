@@ -60,3 +60,8 @@ Si el valor devuelto es 0, significa que estamos en el proceso hijo. En este cas
 Si el valor devuelto por fork() es mayor que 0, significa que estamos en el proceso padre. En este caso, escribimos en la memoria compartida, esperamos a que el proceso hijo termine y luego liberamos la memoria.
 
 Espero que esta explicación te ayude a entender mejor el código. Si tienes más preguntas, no dudes en hacerlas.
+## Desarrollo de la practica
+1. Se instalo una maquina virtual de ubuntu con el comando ```ws install```, para despues crear un usuario
+2. Con el comando ```sudo apt update``` actualizamos la maquina virtual para poder instalar el compilador de c con ```sudo apt install gcc```
+3. Despues de tener todo listo extraemos el repositorio donde teniamos el codigo con ```git clone [URL]```
+4. Una vez clonado el archivo se procede a crear un ejecutable del archivo con ```gcc [Nombre-archivo] -o[Nombre-ejecutable]```, una vez hecho esto se lo ejecuta con ```[./[Nombre-ejecutable]]```
